@@ -27,6 +27,13 @@ export default function Home() {
                 <a className=" text-decoration-none h3 text-info">Todos</a>
               </Link>
             </li>
+            <li className=" mb-3">
+              <Link href="/create-todo">
+                <a className=" text-decoration-none h3 text-info">
+                  Create Todos
+                </a>
+              </Link>
+            </li>
           </ul>
         </div>
       </main>
